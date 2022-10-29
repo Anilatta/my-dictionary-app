@@ -9,3 +9,7 @@
 body {
   background: #f9f8fe;
 }
+.App {
+  max-width: 966px;
+  margin: 0 auto;
+}
