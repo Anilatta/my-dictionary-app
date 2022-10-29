@@ -8,10 +8,19 @@ export default function App() {
           <h1>Dictionary of Definitions</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="moon" />
+          <Dictionary defaultKeyword="sun" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Talina Dzhavakhadze</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/Anilatta/my-dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {"Talina Dzhavakhadze "}
+            </a>
+          </small>
         </footer>
       </div>
     </div>
