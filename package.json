@@ -18,8 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Credentials": "true",
-    "proxy": "localhost:3000"
+    "Access-Control-Allow-Credentials": "true"
   },
   "eslintConfig": {
     "extends": [

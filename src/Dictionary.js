@@ -22,11 +22,11 @@ export default function Dictionary(props) {
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
-
+    //"";
     let pexelsApiKey =
       "563492ad6f91700001000001eeb30f8eb3fd4ced8977235e8557cdcf";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
-    let headers = { Authorisation: `Bearer ${pexelsApiKey}` };
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
   function handleSubmit(event) {
