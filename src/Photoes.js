@@ -5,7 +5,9 @@ export default function Photoes(props) {
     return (
       <section className="Photoes">
         {props.photoes.map(function (photo, index) {
-          return <img src={photo.src.landscape} alt="search result" />;
+          return (
+            <img src={photo.src.landscape} alt="search result" key={index} />
+          );
         })}
       </section>
     );
