@@ -12,7 +12,7 @@
   transition: all 150ms ease-in-out;
 }
 .Phonetics a:hover {
-  background: purple;
+  background: #705770;
   color: white;
 }
 .Phonetics text {

@@ -5,4 +5,8 @@
 .Synonyms li {
   display: inline-block;
   padding-right: 15px;
+  color: #705770;
+}
+.Synonyms h5 {
+  color: black;
 }
